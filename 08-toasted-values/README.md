@@ -37,7 +37,7 @@ Steps:
    TOAST have an associated TOAST relation.
 
    ```
-   SELECT toastrelid::regclass FROM pg_class WHERE relname = 't';
+   SELECT reltoastrelid::regclass FROM pg_class WHERE relname = 't';
    
    SELECT * FROM pg_toast.pg_toast_24801;
    ```

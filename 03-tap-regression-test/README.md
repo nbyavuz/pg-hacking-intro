@@ -11,16 +11,16 @@ programming and thus more complex workflows, multiple instances,
 restarts, etc.
 
 We'll create a minimum TAP test, that initializes an instance with a
-custom configuration, checks a result of a result, restarts the
+custom configuration, checks a result of the test, restarts the
 instance and checks the log. And then shuts the instance.
 
 Steps:
 
-1. Go to the "extension" directory, create an empty file `t/001_basic.sql`
+1. Go to the "extension" directory, create an empty file `t/001_basic.pl`
    and run `make installcheck`. It should try to run the test and fail,
    complaining about the file not defining any tests.
 
-2. Add this minimal skeleton of a TAP test to the file. It create an
+2. Add this minimal skeleton of a TAP test to the file. It creates an
    instance, starts it, stops it, and finishes testing.
 
 ```

@@ -64,7 +64,7 @@ Steps:
    PG_RETURN_CSTRING(msg_str);
    ```
 
-   Similar to `PG_GETARG_*` macros, you can chech other variants of
+   Similar to `PG_GETARG_*` macros, you can check other variants of
    `PG_RETURN_*` macros. 
 
 

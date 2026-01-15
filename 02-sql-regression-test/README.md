@@ -4,7 +4,7 @@ Exercise: SQL regression test
 This exercise adds a trivial SQL regression test, to do simple testing
 of the extension code.
 
-SQL tests simply define (a) file with SQL queries/commandss, executed
+SQL tests simply define (a) file with SQL queries/commands, executed
 in a single session/connection, and (b) another file with expected
 output. This is a great way to do basic testing of changes that affect
 results of SQL queries etc.
