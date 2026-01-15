@@ -6,7 +6,7 @@ to track exactly what you allocated and then free it at the appropriate
 time. It's easy to end up with either memory leaks, double-free or
 use-after-free bugs etc.
 
-This is especially true true for systems where the different pieces of
+This is especially true for systems where the different pieces of
 memory have vastly different life spans. Some memory needs to exist for
 as long as the backend is running, other pieces are per transaction,
 query, operation, row, ...

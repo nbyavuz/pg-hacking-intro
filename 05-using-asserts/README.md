@@ -5,7 +5,7 @@ Asserts are a convenient way to enforce conditions (invariants) during
 development. This should prevent "can't happen" cases and verify "must
 happen" cases.
 
-This is an "extension" of the asserts provided by standad library,
+This is an "extension" of the asserts provided by standard library,
 integrated into the Postgres configure / build system. In production
 builds asserts are disabled.
 
@@ -30,7 +30,7 @@ Steps:
    ```
 
    And try running the tests again. It should fail. (The `CPPFLAGS` is
-   optional - it disables optimizations, which makes it easiert to
+   optional - it disables optimizations, which makes it easier to
    analyze core dumps.)
 
 3. It's often useful to investigate why/where an ABORT happened, which
@@ -81,7 +81,7 @@ Steps:
    With this in place (and instance restarted), run `installcheck`
    again. You should get a core file.
 
-6. Now inspect the core file using `gdb` by speficying the paths to the
+6. Now inspect the core file using `gdb` by specifying the paths to the
    postgres binary and the core file.
 
    ```

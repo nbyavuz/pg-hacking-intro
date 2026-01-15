@@ -9,7 +9,7 @@ rebuild / reinitialize cluster. If you can, start experimenting with
 an extension instead of hacking on the core right away, it will make
 your life much easier.
 
-Hint: Start by looking for extensions that alredy do something similar,
+Hint: Start by looking for extensions that already do something similar,
 and use them as a starting point.
 
 Steps:

@@ -1,4 +1,4 @@
 # hacking intro extension
-comment = 'skeleton of a minimal extensio'
+comment = 'skeleton of a minimal extension'
 default_version = '1.0.0'
 relocatable = true

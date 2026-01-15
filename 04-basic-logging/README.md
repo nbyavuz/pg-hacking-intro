@@ -54,7 +54,7 @@ Steps:
 
    It's defined in the same `elog.h` header, and it supports "context"
    in  the form of `errcode`, `errmsg`, `errdetail`, `errhint` etc.
-   It's porobably easier to look for places that emit similar message
+   It's probably easier to look for places that emit similar message
    (e.g. check privileges, data types, ...).
 
    The errcodes are defined in the SQL standard and you may find a list
@@ -63,4 +63,4 @@ Steps:
 7. Modify the extension to use the `ereport` interface. Add `errhint`
    and `errdetail` with additional details that should be logged.
 
-8. Try runinng the tests using `make installcheck` again, fix them.
+8. Try running the tests using `make installcheck` again, fix them.
